@@ -17,6 +17,20 @@
   margin: 0 auto;
 }
 
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
 p {
   color: rgba(39, 39, 39, 0.6);
   /* font-size: 14px; */
@@ -32,6 +46,12 @@ button {
   padding: 20px 43px;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+  transition: all 2ms linear;
+}
+
+button:hover {
+  background-color: #dc778d;
 }
 /* common style ends here */
 
@@ -46,9 +66,9 @@ header {
   justify-content: space-between;
 }
 
-.banner-text *{
-    margin-bottom: 32px;
-    max-width: 525px;
+.banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
 }
 
 .banner .banner-text h1 {
@@ -57,8 +77,55 @@ header {
   font-weight: 800;
 }
 
-.banner .banner-image img{
-    width: 100%;
-    vertical-align: middle;
+.banner .banner-image img {
+  width: 100%;
+  vertical-align: middle;
 }
 /*  header section ends here */
+
+/* feature section starts here */
+#feature {
+  padding: 100px 0;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+
+.section-content .flower .flower-image {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 30px 25px 0;
+  height: 500px;
+  display: flex;
+  align-items: end;
+}
+
+.section-content .flower .flower-image img {
+  width: 100%;
+}
+
+.section-content .flower .pink {
+  background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue {
+  background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+
+/* feature section ends here */

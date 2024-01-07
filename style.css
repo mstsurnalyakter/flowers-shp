@@ -97,7 +97,6 @@ header {
 
 .section-content .flower .flower-image {
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
   padding: 30px 25px 0;
   height: 500px;
   display: flex;
@@ -129,3 +128,39 @@ header {
 }
 
 /* feature section ends here */
+
+/* delivery section starts here */
+#delivery {
+  padding: 100px 0;
+
+}
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+   height: 320px;
+}
+
+.section-content .delivery-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.section-content .delivery-section .delivery-section-image img {
+  width:100%;
+  margin-bottom: 24px;
+}
+.section-content .delivery-section p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* delivery section ends here */
